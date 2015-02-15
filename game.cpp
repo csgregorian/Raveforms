@@ -70,7 +70,7 @@ void Game::loop() {
             }
         }
 
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Shift)) {
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::X)) {
             int grey = (float)mic.max/65536.0*255.0;
             window.clear(sf::Color(grey, grey, grey));
         } else {
